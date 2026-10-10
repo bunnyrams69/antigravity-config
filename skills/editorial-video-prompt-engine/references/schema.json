@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EditorialVideoPromptSequence",
+  "description": "Schema for multi-part cinematic editorial poster video edit prompt sequences.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["part", "source_file", "time_range", "global_vfx", "segments"],
+    "properties": {
+      "part": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "source_file": {
+        "type": "string"
+      },
+      "time_range": {
+        "type": "string",
+        "pattern": "^\\d{2}:\\d{2}:\\d{2}\\.\\d{3}\\s*-\\s*\\d{2}:\\d{2}:\\d{2}\\.\\d{3}$"
+      },
+      "global_vfx": {
+        "type": "object",
+        "required": ["aspect_ratio", "color_grading", "typography", "animation_style"],
+        "properties": {
+          "aspect_ratio": {
+            "type": "string"
+          },
+          "color_grading": {
+            "type": "string"
+          },
+          "typography": {
+            "type": "object",
+            "required": ["title_font", "title_color", "subtitle_font", "subtitle_color"],
+            "properties": {
+              "title_font": { "type": "string" },
+              "title_color": { "type": "string" },
+              "subtitle_font": { "type": "string" },
+              "subtitle_color": { "type": "string" },
+              "margin_text_font": { "type": "string" },
+              "margin_text_color": { "type": "string" },
+              "accent_color": { "type": "string" },
+              "highlight_color": { "type": "string" }
+            }
+          },
+          "animation_style": {
+            "type": "string"
+          }
+        }
+      },
+      "segments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "segment_id",
+            "start_time",
+            "end_time",
+            "frame_range",
+            "dialogue",
+            "framing",
+            "camera_motion",
+            "vfx",
+            "b_roll",
+            "graphics",
+            "sfx"
+          ],
+          "properties": {
+            "segment_id": { "type": "string" },
+            "start_time": {
+              "type": "string",
+              "pattern": "^\\d{2}:\\d{2}:\\d{2}\\.\\d{3}$"
+            },
+            "end_time": {
+              "type": "string",
+              "pattern": "^\\d{2}:\\d{2}:\\d{2}\\.\\d{3}$"
+            },
+            "frame_range": { "type": "string" },
+            "dialogue": { "type": "string" },
+            "framing": { "type": "string" },
+            "camera_motion": { "type": "string" },
+            "vfx": { "type": "string" },
+            "b_roll": { "type": "string" },
+            "graphics": {
+              "type": "object",
+              "required": ["main_title", "subtitle", "border_credits"],
+              "properties": {
+                "main_title": {
+                  "type": "object",
+                  "required": ["text", "font", "color", "position", "scale"],
+                  "properties": {
+                    "text": { "type": "string" },
+                    "font": { "type": "string" },
+                    "color": { "type": "string" },
+                    "position": { "type": "string" },
+                    "scale": { "type": "string" },
+                    "animation": { "type": "string" }
+                  }
+                },
+                "subtitle": {
+                  "type": "object",
+                  "required": ["text", "font", "color", "position"],
+                  "properties": {
+                    "text": { "type": "string" },
+                    "font": { "type": "string" },
+                    "color": { "type": "string" },
+                    "position": { "type": "string" },
+                    "scale": { "type": "string" }
+                  }
+                },
+                "border_credits": {
+                  "type": "object",
+                  "required": ["left_margin", "right_margin"],
+                  "properties": {
+                    "left_margin": { "type": "string" },
+                    "right_margin": { "type": "string" },
+                    "orientation": { "type": "string" },
+                    "color": { "type": "string" },
+                    "font_size": { "type": "string" }
+                  }
+                }
+              }
+            },
+            "sfx": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

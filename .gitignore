@@ -1,0 +1,15 @@
+# Antigravity config - git sync
+# Ignore personal/machine-specific files
+config.json
+mcp_config.json
+
+# Ignore plugin secrets or local paths if any
+plugins/*/secrets.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Migration markers
+.migrated

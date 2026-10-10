@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenSwissData",
+    "url": "https://github.com/cammac-creator/openswissdata/tree/main/sdks/mcp-server",
+    "description": "Swiss customs tariff (TARES), FINMA register and warnings, NOGA/NACE/ISIC code crosswalks",
+    "auth": "No",
+    "transport": "stdio, HTTP",
+    "install": "[Glama](https://glama.ai/mcp/connectors/io.github.cammac-creator/openswissdata)"
+  },
+  {
+    "name": "IPstack MCP",
+    "url": "https://ipstack.com/mcp",
+    "description": "IP geolocation, threat and timezone lookups for agents",
+    "auth": "apiKey",
+    "transport": "stdio, HTTP",
+    "install": "[Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter)"
+  },
+  {
+    "name": "corpusAI Cloud Pricing",
+    "url": "https://cloud.trycorpus.ai/docs#quick-start-for-agents",
+    "description": "Cloud, GPU and LLM token prices for agents, free discovery tools and paid per-call data",
+    "auth": "No",
+    "transport": "stdio, HTTP",
+    "install": "[npm](https://www.npmjs.com/package/corpus-cloud-pricing-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=corpus-cloud-pricing)"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/github/github-mcp-server",
+    "description": "Repos, issues, PRs, code search",
+    "auth": "OAuth",
+    "transport": "stdio, HTTP",
+    "install": "[Glama](https://glama.ai/mcp/servers/@github/github-mcp-server)"
+  },
+  {
+    "name": "Filesystem",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "description": "Read/write local files",
+    "auth": "No",
+    "transport": "stdio",
+    "install": "–"
+  },
+  {
+    "name": "Twinbay",
+    "url": "https://docs.twinbay.ai/mcp-server",
+    "description": "Spin up stateful API twins, read request logs and grade agent runs",
+    "auth": "OAuth",
+    "transport": "HTTP",
+    "install": "–"
+  }
+]

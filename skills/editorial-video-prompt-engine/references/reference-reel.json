@@ -1,0 +1,349 @@
+[
+  {
+    "part": 1,
+    "source_file": "8.mp4",
+    "time_range": "00:00:00.000 - 00:00:03.300",
+    "global_vfx": {
+      "aspect_ratio": "9:16 (1080x1920)",
+      "color_grading": "Cinematic 35mm film grade, warm golden highlights, muted teal shadows, subtle 35mm film grain.",
+      "typography": {
+        "title_font": "Bodoni 72 Bold / Playfair Display Black (Serif)",
+        "title_color": "#E50914 (Vibrant Editorial Crimson Red)",
+        "subtitle_font": "Helvetica Neue Medium / Inter (Sans-Serif)",
+        "subtitle_color": "#FFFFFF",
+        "margin_text_font": "Futura Condensed / Anton (Uppercase Tracked)",
+        "margin_text_color": "#E50914"
+      },
+      "animation_style": "Subject depth masking, kinetic snap cuts, spring zoom."
+    },
+    "segments": [
+      {
+        "segment_id": "1.1",
+        "start_time": "00:00:00.000",
+        "end_time": "00:00:01.200",
+        "frame_range": "0 - 36",
+        "dialogue": "New clients కోసం manually cold emails పంపిస్తున్నారా?",
+        "framing": "A-roll (100% scale, center punch)",
+        "camera_motion": "Static hold with subtle handheld micro-shake",
+        "vfx": "AI rotoscope depth mask on speaker. Giant serif text 'MANUAL' isolated behind speaker torso.",
+        "b_roll": "None",
+        "graphics": {
+          "main_title": {
+            "text": "MANUAL",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "220%",
+            "animation": "Scale up 95% -> 100% with spring dampening"
+          },
+          "subtitle": {
+            "text": "COLD EMAILS?",
+            "font": "Sans-Serif",
+            "color": "#FFFFFF",
+            "position": "lower_third",
+            "scale": "90%"
+          },
+          "border_credits": {
+            "left_margin": "MANUAL OUTREACH • SLOW PROCESS",
+            "right_margin": "LOW CONVERSION • HIGH EFFORT",
+            "orientation": "vertical_90deg",
+            "color": "#E50914",
+            "font_size": "14px"
+          }
+        },
+        "sfx": "Heavy cinematic bass thud on 00:00:00 + soft typewriter click on 00:00:00.600"
+      },
+      {
+        "segment_id": "1.2",
+        "start_time": "00:00:01.200",
+        "end_time": "00:00:02.300",
+        "frame_range": "37 - 69",
+        "dialogue": "ఒక lead research చేయడానికి 2 hours,",
+        "framing": "112% Snap Zoom-in on speaker",
+        "camera_motion": "Quick punch-in zoom",
+        "vfx": "Depth mask active. Red giant typography switches to '2 HOURS'. Subtle motion blur on transition.",
+        "b_roll": "Semi-transparent glowing analog clock graphic spinning fast overlaid in top-right corner.",
+        "graphics": {
+          "main_title": {
+            "text": "2 HOURS",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_head_level",
+            "scale": "240%",
+            "animation": "Fast pop cut"
+          },
+          "subtitle": {
+            "text": "PER SINGLE LEAD RESEARCH",
+            "font": "Sans-Serif",
+            "color": "#FFCC00",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "RESEARCH BOTTLENECK",
+            "right_margin": "120 MIN WASTED"
+          }
+        },
+        "sfx": "Fast mechanical clock ticking + metallic whoosh on snap zoom"
+      },
+      {
+        "segment_id": "1.3",
+        "start_time": "00:00:02.300",
+        "end_time": "00:00:03.300",
+        "frame_range": "70 - 99",
+        "dialogue": "email రాయడానికి 30 minutes. Reply వస్తే demo build చేయడానికి ఇంకా time.",
+        "framing": "118% Zoom-in (Slow continuous digital push)",
+        "camera_motion": "Slow forward push",
+        "vfx": "Red serif text switches to 'SLOW'. Fast flash transition at 00:00:03.250 into Part 2.",
+        "b_roll": "Quick 0.3s ghosting overlay of email draft UI filling with red error highlights.",
+        "graphics": {
+          "main_title": {
+            "text": "SLOW",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "260%",
+            "animation": "Glitch pulse jitter"
+          },
+          "subtitle": {
+            "text": "+30 MINS COPYWRITING + DEMO DELAY",
+            "font": "Sans-Serif",
+            "color": "#FFFFFF",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "TRADITIONAL OUTREACH",
+            "right_margin": "UNSUSTAINABLE SCALE"
+          }
+        },
+        "sfx": "Glitch static buzz + fast whip-swoosh at transition cut"
+      }
+    ]
+  },
+  {
+    "part": 2,
+    "source_file": "9.mp4",
+    "time_range": "00:00:03.300 - 00:00:06.600",
+    "global_vfx": {
+      "aspect_ratio": "9:16 (1080x1920)",
+      "color_grading": "High-contrast cinematic warm film look with vibrant red color accent separation.",
+      "typography": {
+        "title_font": "Bodoni 72 Bold / Playfair Display Black (Serif)",
+        "title_color": "#E50914",
+        "subtitle_font": "Helvetica Neue Bold (Sans-Serif)",
+        "subtitle_color": "#FFFFFF",
+        "highlight_color": "#00FF66"
+      },
+      "animation_style": "Depth-isolated typography with kinetic UI tracking and sound-synced accents."
+    },
+    "segments": [
+      {
+        "segment_id": "2.1",
+        "start_time": "00:00:03.300",
+        "end_time": "00:00:04.600",
+        "frame_range": "100 - 138",
+        "dialogue": "మనం ఒక full AI acquisition system build చేసాము",
+        "framing": "A-roll (100% scale, hard cut from 8.mp4)",
+        "camera_motion": "Center locked framing",
+        "vfx": "Depth rotoscope mask. Massive red serif title 'SYSTEM' behind speaker. Subtle golden lens flare.",
+        "b_roll": "None",
+        "graphics": {
+          "main_title": {
+            "text": "SYSTEM",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "230%",
+            "animation": "Smooth scale expansion from 90% to 100%"
+          },
+          "subtitle": {
+            "text": "FULL AI ACQUISITION ENGINE",
+            "font": "Sans-Serif Bold",
+            "color": "#00FF66",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "AI ACQUISITION V2.0",
+            "right_margin": "AUTONOMOUS OUTREACH"
+          }
+        },
+        "sfx": "Deep sub-bass impact boom + sci-fi tech power-up hum"
+      },
+      {
+        "segment_id": "2.2",
+        "start_time": "00:00:04.600",
+        "end_time": "00:00:05.600",
+        "frame_range": "139 - 168",
+        "dialogue": "Lead research AI చేస్తుంది,",
+        "framing": "110% Zoom-in",
+        "camera_motion": "Instant snap cut zoom",
+        "vfx": "Depth typography shifts to 'AUTO'. Glowing holographic data HUD tags scan across screen.",
+        "b_roll": "Micro overlay of AI data extraction profile card animating in 3D perspective.",
+        "graphics": {
+          "main_title": {
+            "text": "AUTO",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_head_level",
+            "scale": "250%"
+          },
+          "subtitle": {
+            "text": "1. LEAD RESEARCH → 100% AI",
+            "font": "Sans-Serif",
+            "color": "#FFFFFF",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "DATA SCRAPING • AUTOMATED",
+            "right_margin": "VERIFIED PROSPECTS"
+          }
+        },
+        "sfx": "Digital scan beep + data stream ripple sound"
+      },
+      {
+        "segment_id": "2.3",
+        "start_time": "00:00:05.600",
+        "end_time": "00:00:06.600",
+        "frame_range": "169 - 198",
+        "dialogue": "personalized email AI రాస్తుంది, send automatically అవుతుంది",
+        "framing": "115% Zoom-in",
+        "camera_motion": "Gentle floating camera drift",
+        "vfx": "Depth text switches to 'SEND'. 3 floating green checkmark icons pop around subject.",
+        "b_roll": "Fast kinetic motion path showing email envelope flying into inbox icon.",
+        "graphics": {
+          "main_title": {
+            "text": "SEND",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "260%"
+          },
+          "subtitle": {
+            "text": "2. PERSONALIZED COPY + AUTO DISPATCH",
+            "font": "Sans-Serif",
+            "color": "#00FF66",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "HYPER-PERSONALIZED",
+            "right_margin": "ZERO HUMAN TOUCH"
+          }
+        },
+        "sfx": "Triple rapid UI pop chimes + email swoosh sound"
+      }
+    ]
+  },
+  {
+    "part": 3,
+    "source_file": "10.mp4",
+    "time_range": "00:00:06.600 - 00:00:10.000",
+    "global_vfx": {
+      "aspect_ratio": "9:16 (1080x1920)",
+      "color_grading": "Editorial warm film grade, saturated reds, high micro-contrast, vignette edges.",
+      "typography": {
+        "title_font": "Bodoni 72 Bold / Playfair Display Black (Serif)",
+        "title_color": "#E50914",
+        "subtitle_font": "Helvetica Neue Bold (Sans-Serif)",
+        "subtitle_color": "#FFFFFF",
+        "accent_color": "#00E5FF & #00FF66"
+      },
+      "animation_style": "Subject mask layering, dynamic kinetic typography pops, cinematic final freeze frame."
+    },
+    "segments": [
+      {
+        "segment_id": "3.1",
+        "start_time": "00:00:06.600",
+        "end_time": "00:00:08.000",
+        "frame_range": "199 - 240",
+        "dialogue": "Reply వస్తే, 3 minutes లో ఒక personalized chatbot demo live అవుతుంది",
+        "framing": "A-roll (100% scale, cut to 10.mp4)",
+        "camera_motion": "Center frame with kinetic punch on hand gesture",
+        "vfx": "Depth rotoscope mask. Giant red serif '3 MINS' layered behind speaker's raised hand gesture.",
+        "b_roll": "Floating glowing 3D smartphone demo showing active chatbot replying instantly.",
+        "graphics": {
+          "main_title": {
+            "text": "3 MINS",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "240%",
+            "animation": "Spring scale pop"
+          },
+          "subtitle": {
+            "text": "LIVE CHATBOT DEMO DEPLOYED",
+            "font": "Sans-Serif Bold",
+            "color": "#00E5FF",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "INSTANT DEMO CREATION",
+            "right_margin": "HIGH TICKET CLOSING"
+          }
+        },
+        "sfx": "Air horn hit / cash register ding + digital futuristic chime"
+      },
+      {
+        "segment_id": "3.2",
+        "start_time": "00:00:08.000",
+        "end_time": "00:00:09.100",
+        "frame_range": "241 - 273",
+        "dialogue": "Client open చేసి చూస్తున్నాడు, మనం build చేస్తున్నాము",
+        "framing": "112% Zoom-in",
+        "camera_motion": "Smooth push-in",
+        "vfx": "Depth text switches to 'LIVE'. Glowing cyan border line pulse around frame edge.",
+        "b_roll": "Split second visual accent of client opened notification badge (100% Open Rate).",
+        "graphics": {
+          "main_title": {
+            "text": "LIVE",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_head_level",
+            "scale": "250%"
+          },
+          "subtitle": {
+            "text": "CLIENT VIEWS • SYSTEM BUILDS",
+            "font": "Sans-Serif",
+            "color": "#FFFFFF",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "INTERACTIVE DEMOS",
+            "right_margin": "CONVERSION RATE 10X"
+          }
+        },
+        "sfx": "Camera shutter snap + light digital whoosh"
+      },
+      {
+        "segment_id": "3.3",
+        "start_time": "00:00:09.100",
+        "end_time": "00:00:10.000",
+        "frame_range": "274 - 300",
+        "dialogue": "Manual effort zero, output scale అవుతుంది",
+        "framing": "118% Zoom-in (Final cinematic hold)",
+        "camera_motion": "Slow lock with final frame freeze",
+        "vfx": "Full editorial poster aesthetic. Giant red serif 'SCALE' fills background behind subject. Full red border credits locked.",
+        "b_roll": "None (Clean editorial poster finale)",
+        "graphics": {
+          "main_title": {
+            "text": "SCALE",
+            "font": "Serif Bold",
+            "color": "#E50914",
+            "position": "behind_subject_chest_level",
+            "scale": "270%",
+            "animation": "Impact slam with subtle film gate jitter"
+          },
+          "subtitle": {
+            "text": "EFFORT: 0  |  SCALE: ∞",
+            "font": "Sans-Serif Bold",
+            "color": "#00FF66",
+            "position": "lower_third"
+          },
+          "border_credits": {
+            "left_margin": "AI ACQUISITION MASTERCLASS",
+            "right_margin": "SCALE YOUR AGENCY NOW"
+          }
+        },
+        "sfx": "Heavy cinematic sub-drop impact with trailing acoustic reverb"
+      }
+    ]
+  }
+]
